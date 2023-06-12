@@ -1,0 +1,43 @@
+*{
+  font-family: 'Roboto';
+}
+
+.main_container{
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  place-items: center;
+}
+.board{ 
+  margin: auto auto;
+  padding: 30px;
+  min-width: 900px;
+  max-width: 900px;
+  height: 80vh;
+  background-color: blue;
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+  gap: 8px;
+  border-radius: 10px;
+}
+
+.place{
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  margin: 0;
+  font-weight: 500;
+}
+
+h2{
+  margin: 0;
+  text-align: center;
+  font-weight: 400;
+}
+
+
